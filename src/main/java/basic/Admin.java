@@ -108,12 +108,11 @@ public class Admin {
         WebDriverWait wait = new WebDriverWait(driver, 5);
 
         //系统
-        Thread.sleep(1000);
+        Thread.sleep(3000);
         JavascriptExecutor js = (JavascriptExecutor) driver;
         WebElement xt = driver.findElement(By.cssSelector(".fa.fa-gears"));
-        js.executeScript("arguments[0].scrollIntoView(true);", xt);
+        js.executeScript("arguments[0].click();", xt);
         Thread.sleep(1000);
-        xt.click();
         log.info("系统");
 
         //向下滚动
