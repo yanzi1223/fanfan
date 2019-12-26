@@ -8,11 +8,6 @@
                     <include name="mai"/>
                 </methods>
             </class>
-            <class name="controler.goumai">
-                <methods>
-                    <include name="mai"/>
-                </methods>
-            </class>
         </classes>
     </test>
 </suite>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="1" parallel="methods" name="Failed suite [All Test Suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <test thread-count="1" parallel="methods" name="fanfantest(failed)" verbose="0">
+    <classes>
+      <class name="controler.goumai">
+        <methods>
+          <include name="mai"/>
+        </methods>
+      </class> <!-- controler.goumai -->
+    </classes>
+  </test> <!-- fanfantest(failed) -->
+</suite> <!-- Failed suite [All Test Suite] -->

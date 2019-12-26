@@ -121,7 +121,8 @@ public class Admin {
         log.info("向下滚动");
 
         //订单支付异常处理
-        driver.findElement(By.xpath("/html/body/section/div[1]/div[1]/ul/li[20]/ul/li[16]/a/i")).click();
+        Thread.sleep(1000);
+        js.executeScript("arguments[0].click();", driver.findElement(By.xpath("/html/body/section/div[1]/div[1]/ul/li[20]/ul/li[16]/a/i")));
         log.info("订单支付异常处理");
 
         //采购单号
