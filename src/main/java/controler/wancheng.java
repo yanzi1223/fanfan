@@ -36,7 +36,7 @@ public class wancheng {
         Thread.sleep(1000);
         //批量完成
         driver.findElement(By.id("batchButton")).click();
-         log.info("订单完成");
+         log.info("批量订单完成");
 
         driver.quit();
     }
